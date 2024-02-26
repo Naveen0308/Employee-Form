@@ -26,7 +26,7 @@ const Update = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        axios.get(`http://localhost:8081/update/${id}`)
+        axios.get(`https://employee-form-1-v4l8.onrender.com/update/${id}`)
             .then(response => {
                 const data = response.data;
                 setEmployee(data);
@@ -49,7 +49,7 @@ const Update = () => {
             alert("Employee dob cannot be in future dates");
             return;
           }
-        axios.post(`http://localhost:8081/update/${employee.Eid}`, employee)
+        axios.post(`https://employee-form-1-v4l8.onrender.com/update/${employee.Eid}`, employee)
             .then(res => {
                 navigate('/');
             })

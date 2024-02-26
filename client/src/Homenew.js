@@ -19,7 +19,7 @@ const Homenew = () => {
         alert('Form Submitted Successfully');
         console.log(Eaddress,Elocation,Epincode,Eexperience,Eage,Ename,Eid,Edept,Edob,Egender,Edesign,Esalary);
         event.preventDefault();
-        axios.post('http://localhost:8081/Homenew',{Ename,Eid,Edept,Edob,Egender,Edesign,Esalary,Eaddress,Elocation,Epincode,Eexperience,Eage})
+        axios.post('https://employee-form-1-v4l8.onrender.com/Homenew',{Ename,Eid,Edept,Edob,Egender,Edesign,Esalary,Eaddress,Elocation,Epincode,Eexperience,Eage})
         .then(res =>{
             navigate('/');
         })

@@ -18,7 +18,7 @@ function Home() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get('http://localhost:8081/')
+    axios.get('https://employee-form-1-v4l8.onrender.com/')
       .then(res => {
         setData(res.data);
         setSearchResults(res.data); // Initialize search results with all data
@@ -46,7 +46,7 @@ function Home() {
   };
 
   const handleDelete = (Eid) => {
-    axios.delete('http://localhost:8081/' + Eid)
+    axios.delete('https://employee-form-1-v4l8.onrender.com/' + Eid)
       .then(res => { navigate('/') })
       .catch(err => console.log(err));
   };
