@@ -46,7 +46,7 @@ const Update = () => {
     const handleUpdate = (event) => {
         event.preventDefault();
         if(new Date(employee.Edob) >= Date.now()){
-            alert("emp dob");
+            alert("Employee dob cannot be in future dates");
             return;
           }
         axios.post(`http://localhost:8081/update/${employee.Eid}`, employee)

@@ -78,7 +78,7 @@ function Home() {
                         <div className='inputs'>
                             <div className='name'>Employee_Name:</div>
                             <div classname='inputs'>
-                                <input type='text' placeholder='Name:' onChange={e => setEname(e.target.value)} required/>
+                                <input type='text' placeholder='Name:' maxLength={15} onChange={e => setEname(e.target.value)} required/>
                             </div>
                         </div>
                         <div className='inputs'>
