@@ -1,0 +1,20 @@
+-- CREATE TABLE Employee (
+--     Ename VARCHAR(25),
+--     Eid VARCHAR(25),
+--     Edept VARCHAR(25),
+--     Edob DATE,
+--     Egender VARCHAR(25),
+--     Edesign VARCHAR(25),
+--     Esalary VARCHAR(25),
+--     Eaddress VARCHAR(100),
+--     Elocation VARCHAR(50),
+--     Epincode VARCHAR(10),
+--     Eexperience VARCHAR(25),
+--     Eage VARCHAR(25)
+-- );
+
+-- INSERT INTO Employee (Ename, Eid, Edept, Edob, Egender, Edesign, Esalary, Eaddress, Elocation, Epincode, Eexperience, Eage) 
+-- VALUES 
+-- ('John Doe', 'EMP001', 'IT', '1990-05-15', 'Male', 'Software Engineer', '50000', '123 Main St', 'New York', '10001', '5', '34'),
+-- ('Jane Smith', 'EMP002', 'HR', '1985-10-20', 'Female', 'HR Manager', '60000', '456 Elm St', 'Los Angeles', '90001', '8', '40'),
+-- ('Michael Johnson', 'EMP003', 'Finance', '1988-03-25', 'Male', 'Financial Analyst', '55000', '789 Oak St', 'Chicago', '60601', '3', '28');
